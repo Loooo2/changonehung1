@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'EASTARJET-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/EASTARJET-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+h1{
+    font-family: 'PyeongChangPeace-Bold';
+    font-size: 70px;
+    color: black;
+    animation-name: fade-in;
+    animation-duration: 2s;    position: relative;
+    text-align: center;
+    top: 2cm
+} 
+
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+      color: black;
+    }
+  }
+body{
+    background-image: url("배경.jpg");
+    width: 768px;
+}
+img{
+  width: 20cm;
+  position: relative;
+  left: 7.5cm;
+  top: 4cm;
+}
+button{
+  border-radius: 25px;
+  position: relative;
+  top: -8cm;
+  width: 5cm;
+  height: 1.5cm;
+  font-family: 'Giants-Bold';
+  font-size: 20px;
+}
+@font-face {
+  font-family: 'Giants-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@media all and (max-width: 768px) {
+  h1{
+    position: relative;
+    left: -6.5cm;
+    font-size: 25px;
+  }
+  button{
+    border-radius: 25px;
+    position: relative;
+    left: 0.6cm;
+    top: -9cm;
+    width: 6cm;
+    height: 1cm;
+    font-family: 'Giants-Bold';
+    font-size: 10px;
+  }
+  img{
+    position: relative;
+    left: 0.1cm;
+    width: 5cm;
+  }
+  body{
+    width: 768px;
+  }
+
+}
